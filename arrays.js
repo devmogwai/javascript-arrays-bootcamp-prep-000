@@ -2,7 +2,6 @@ function addElementToBeginningOfArray (array, element) {
   newArray = (array.unshift(element))
   return newArray
 }
-addElementToBeginningOfArray ([1, 2], "dude")
 
 // function destructivelyAddElementToBeginningOfArray (array, element) {
 //   array = array.unshift(element)
