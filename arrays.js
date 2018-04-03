@@ -1,5 +1,5 @@
 function addElementToBeginningOfArray (array, element) {
-  console.log(array.unshift(element))
+  return array.unshift(element))
 }
 addElementToBeginningOfArray ([1], "dude")
 // function destructivelyAddElementToBeginningOfArray (array, element) {
