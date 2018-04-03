@@ -2,12 +2,10 @@ function addElementToBeginningOfArray (array, element) {
   array.unshift(element)
   console.log (array)
 }
-addElementToBeginningOfArray([1], "stuff")
-console.log(array)
-// function destructivelyAddElementToBeginningOfArray (array, element) {
-//   array = array.unshift(element)
-//   return array
-// }
+function destructivelyAddElementToBeginningOfArray (array, element) {
+  array = array.unshift(element)
+  return array
+}
 // function addElementToEndOfArray (array, element) {
 //   return array.push(element)
 // }
