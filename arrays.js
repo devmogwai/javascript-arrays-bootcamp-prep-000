@@ -1,6 +1,6 @@
 function addElementToBeginningOfArray (array, element) {
-  console.log (array.unshift(element))
-  
+  newArray = (array.unshift(element))
+  return newArray
 }
 addElementToBeginningOfArray ([1, 2], "dude")
 
